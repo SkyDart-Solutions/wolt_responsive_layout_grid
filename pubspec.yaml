@@ -1,0 +1,23 @@
+name: wolt_responsive_layout_grid
+description: Wolt Responsive Layout Grid library helps you to create dynamic, adaptive grid layouts that seamlessly adjust to various screen sizes.
+version: 0.0.3
+repository: https://github.com/woltapp/wolt_responsive_layout_grid
+
+environment:
+  sdk: ">=2.19.2 <4.0.0"
+  flutter: ">=3.7.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  # Flutter test tools
+  flutter_test:
+    sdk: flutter
+  # Test lib.
+  test:
